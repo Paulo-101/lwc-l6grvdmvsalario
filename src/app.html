@@ -1,0 +1,14 @@
+<template>
+	<div class="slds-box slds-theme_shade">
+		<lightning-input type="number" name="input2" label="Informe o Salário Mensal" onchange={handleNumberOeChange}
+			value={salario}></lightning-input>
+	</div>
+	<div class="slds-box slds-theme_shade">
+		<b>Valor das férias é : </b>
+		<P>{resultValue}</p>
+	</div>
+	<div class="slds-box slds-theme_shade">
+		<lightning-button label="Simular" onclick={simular}> </lightning-button>
+		<lightning-button label="Limpar" onclick={limpar}> </lightning-button>
+	</div>
+</template>
